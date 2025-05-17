@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 const port = process.env.PORT?? 5000;
-const num = process.env.NUM?? "31";
+const num = process.env.NUM?? "32";
 
 app.listen(port, (req,res)=> console.log("Server is listening on port", port));
 
